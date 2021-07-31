@@ -2,7 +2,7 @@
 
 ## Issue
 
-When using the microphone on the airpods on a mac the sound quality gets worse, this is something that's not fixable at the moment and the best we can do is not use the airpods's microphone to get the best sound quality possible.
+When using the airpods's microphone on a mac the sound quality gets worse, this is something that's not fixable at the moment and the best we can do is not use the airpods's microphone to get the best sound quality possible.
 
 ## Workaround
 
