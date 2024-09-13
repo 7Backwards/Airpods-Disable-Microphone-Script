@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		590E68662C9332A500CC7F2C /* BluetoothMicSwitcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E68652C9332A500CC7F2C /* BluetoothMicSwitcherApp.swift */; };
+		590E68682C9332A500CC7F2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E68672C9332A500CC7F2C /* ContentView.swift */; };
+		590E686A2C9332A700CC7F2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 590E68692C9332A700CC7F2C /* Assets.xcassets */; };
+		590E686D2C9332A700CC7F2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 590E686C2C9332A700CC7F2C /* Preview Assets.xcassets */; };
+		590E68782C9332A700CC7F2C /* BluetoothMicSwitcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E68772C9332A700CC7F2C /* BluetoothMicSwitcherTests.swift */; };
+		590E68822C9332A700CC7F2C /* BluetoothMicSwitcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E68812C9332A700CC7F2C /* BluetoothMicSwitcherUITests.swift */; };
+		590E68842C9332A700CC7F2C /* BluetoothMicSwitcherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E68832C9332A700CC7F2C /* BluetoothMicSwitcherUITestsLaunchTests.swift */; };
+		590E68912C93337500CC7F2C /* AirpodsDisableInputScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E68902C93337500CC7F2C /* AirpodsDisableInputScript.swift */; };
+		590E68932C934CAE00CC7F2C /* LoginItemHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E68922C934CAE00CC7F2C /* LoginItemHelper.swift */; };
+		590E689B2C934EBC00CC7F2C /* AppHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E689A2C934EBC00CC7F2C /* AppHelperApp.swift */; };
+		590E689D2C934EBC00CC7F2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E689C2C934EBC00CC7F2C /* ContentView.swift */; };
+		590E689F2C934EBD00CC7F2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 590E689E2C934EBD00CC7F2C /* Assets.xcassets */; };
+		590E68A22C934EBD00CC7F2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 590E68A12C934EBD00CC7F2C /* Preview Assets.xcassets */; };
+		590E68AD2C934EBD00CC7F2C /* AppHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E68AC2C934EBD00CC7F2C /* AppHelperTests.swift */; };
+		590E68B72C934EBE00CC7F2C /* AppHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E68B62C934EBE00CC7F2C /* AppHelperUITests.swift */; };
+		590E68B92C934EBE00CC7F2C /* AppHelperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E68B82C934EBE00CC7F2C /* AppHelperUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		590E68742C9332A700CC7F2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590E685A2C9332A500CC7F2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 590E68612C9332A500CC7F2C;
+			remoteInfo = BluetoothMicSwitcher;
+		};
+		590E687E2C9332A700CC7F2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590E685A2C9332A500CC7F2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 590E68612C9332A500CC7F2C;
+			remoteInfo = BluetoothMicSwitcher;
+		};
+		590E68A92C934EBD00CC7F2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590E685A2C9332A500CC7F2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 590E68972C934EBC00CC7F2C;
+			remoteInfo = AppHelper;
+		};
+		590E68B32C934EBE00CC7F2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590E685A2C9332A500CC7F2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 590E68972C934EBC00CC7F2C;
+			remoteInfo = AppHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		590E68622C9332A500CC7F2C /* BluetoothMicSwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothMicSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		590E68652C9332A500CC7F2C /* BluetoothMicSwitcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothMicSwitcherApp.swift; sourceTree = "<group>"; };
+		590E68672C9332A500CC7F2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		590E68692C9332A700CC7F2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		590E686C2C9332A700CC7F2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		590E686E2C9332A700CC7F2C /* BluetoothMicSwitcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BluetoothMicSwitcher.entitlements; sourceTree = "<group>"; };
+		590E68732C9332A700CC7F2C /* BluetoothMicSwitcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothMicSwitcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		590E68772C9332A700CC7F2C /* BluetoothMicSwitcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothMicSwitcherTests.swift; sourceTree = "<group>"; };
+		590E687D2C9332A700CC7F2C /* BluetoothMicSwitcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothMicSwitcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		590E68812C9332A700CC7F2C /* BluetoothMicSwitcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothMicSwitcherUITests.swift; sourceTree = "<group>"; };
+		590E68832C9332A700CC7F2C /* BluetoothMicSwitcherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothMicSwitcherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		590E68902C93337500CC7F2C /* AirpodsDisableInputScript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AirpodsDisableInputScript.swift; path = "../../Airpods-Disable-Microphone-Script/AirpodsDisableInputScript.swift"; sourceTree = "<group>"; };
+		590E68922C934CAE00CC7F2C /* LoginItemHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginItemHelper.swift; sourceTree = "<group>"; };
+		590E68982C934EBC00CC7F2C /* AppHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		590E689A2C934EBC00CC7F2C /* AppHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHelperApp.swift; sourceTree = "<group>"; };
+		590E689C2C934EBC00CC7F2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		590E689E2C934EBD00CC7F2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		590E68A12C934EBD00CC7F2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		590E68A32C934EBD00CC7F2C /* AppHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppHelper.entitlements; sourceTree = "<group>"; };
+		590E68A82C934EBD00CC7F2C /* AppHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		590E68AC2C934EBD00CC7F2C /* AppHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHelperTests.swift; sourceTree = "<group>"; };
+		590E68B22C934EBD00CC7F2C /* AppHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		590E68B62C934EBE00CC7F2C /* AppHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHelperUITests.swift; sourceTree = "<group>"; };
+		590E68B82C934EBE00CC7F2C /* AppHelperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHelperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		590E685F2C9332A500CC7F2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590E68702C9332A700CC7F2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590E687A2C9332A700CC7F2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590E68952C934EBC00CC7F2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590E68A52C934EBD00CC7F2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590E68AF2C934EBD00CC7F2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		590E68592C9332A500CC7F2C = {
+			isa = PBXGroup;
+			children = (
+				590E68642C9332A500CC7F2C /* BluetoothMicSwitcher */,
+				590E68762C9332A700CC7F2C /* BluetoothMicSwitcherTests */,
+				590E68802C9332A700CC7F2C /* BluetoothMicSwitcherUITests */,
+				590E68992C934EBC00CC7F2C /* AppHelper */,
+				590E68AB2C934EBD00CC7F2C /* AppHelperTests */,
+				590E68B52C934EBE00CC7F2C /* AppHelperUITests */,
+				590E68632C9332A500CC7F2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		590E68632C9332A500CC7F2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				590E68622C9332A500CC7F2C /* BluetoothMicSwitcher.app */,
+				590E68732C9332A700CC7F2C /* BluetoothMicSwitcherTests.xctest */,
+				590E687D2C9332A700CC7F2C /* BluetoothMicSwitcherUITests.xctest */,
+				590E68982C934EBC00CC7F2C /* AppHelper.app */,
+				590E68A82C934EBD00CC7F2C /* AppHelperTests.xctest */,
+				590E68B22C934EBD00CC7F2C /* AppHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		590E68642C9332A500CC7F2C /* BluetoothMicSwitcher */ = {
+			isa = PBXGroup;
+			children = (
+				590E68652C9332A500CC7F2C /* BluetoothMicSwitcherApp.swift */,
+				590E68672C9332A500CC7F2C /* ContentView.swift */,
+				590E68902C93337500CC7F2C /* AirpodsDisableInputScript.swift */,
+				590E68922C934CAE00CC7F2C /* LoginItemHelper.swift */,
+				590E68692C9332A700CC7F2C /* Assets.xcassets */,
+				590E686E2C9332A700CC7F2C /* BluetoothMicSwitcher.entitlements */,
+				590E686B2C9332A700CC7F2C /* Preview Content */,
+			);
+			path = BluetoothMicSwitcher;
+			sourceTree = "<group>";
+		};
+		590E686B2C9332A700CC7F2C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				590E686C2C9332A700CC7F2C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		590E68762C9332A700CC7F2C /* BluetoothMicSwitcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				590E68772C9332A700CC7F2C /* BluetoothMicSwitcherTests.swift */,
+			);
+			path = BluetoothMicSwitcherTests;
+			sourceTree = "<group>";
+		};
+		590E68802C9332A700CC7F2C /* BluetoothMicSwitcherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				590E68812C9332A700CC7F2C /* BluetoothMicSwitcherUITests.swift */,
+				590E68832C9332A700CC7F2C /* BluetoothMicSwitcherUITestsLaunchTests.swift */,
+			);
+			path = BluetoothMicSwitcherUITests;
+			sourceTree = "<group>";
+		};
+		590E68992C934EBC00CC7F2C /* AppHelper */ = {
+			isa = PBXGroup;
+			children = (
+				590E689A2C934EBC00CC7F2C /* AppHelperApp.swift */,
+				590E689C2C934EBC00CC7F2C /* ContentView.swift */,
+				590E689E2C934EBD00CC7F2C /* Assets.xcassets */,
+				590E68A32C934EBD00CC7F2C /* AppHelper.entitlements */,
+				590E68A02C934EBD00CC7F2C /* Preview Content */,
+			);
+			path = AppHelper;
+			sourceTree = "<group>";
+		};
+		590E68A02C934EBD00CC7F2C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				590E68A12C934EBD00CC7F2C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		590E68AB2C934EBD00CC7F2C /* AppHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				590E68AC2C934EBD00CC7F2C /* AppHelperTests.swift */,
+			);
+			path = AppHelperTests;
+			sourceTree = "<group>";
+		};
+		590E68B52C934EBE00CC7F2C /* AppHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				590E68B62C934EBE00CC7F2C /* AppHelperUITests.swift */,
+				590E68B82C934EBE00CC7F2C /* AppHelperUITestsLaunchTests.swift */,
+			);
+			path = AppHelperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		590E68612C9332A500CC7F2C /* BluetoothMicSwitcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 590E68872C9332A700CC7F2C /* Build configuration list for PBXNativeTarget "BluetoothMicSwitcher" */;
+			buildPhases = (
+				590E685E2C9332A500CC7F2C /* Sources */,
+				590E685F2C9332A500CC7F2C /* Frameworks */,
+				590E68602C9332A500CC7F2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothMicSwitcher;
+			productName = BluetoothMicSwitcher;
+			productReference = 590E68622C9332A500CC7F2C /* BluetoothMicSwitcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		590E68722C9332A700CC7F2C /* BluetoothMicSwitcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 590E688A2C9332A700CC7F2C /* Build configuration list for PBXNativeTarget "BluetoothMicSwitcherTests" */;
+			buildPhases = (
+				590E686F2C9332A700CC7F2C /* Sources */,
+				590E68702C9332A700CC7F2C /* Frameworks */,
+				590E68712C9332A700CC7F2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				590E68752C9332A700CC7F2C /* PBXTargetDependency */,
+			);
+			name = BluetoothMicSwitcherTests;
+			productName = BluetoothMicSwitcherTests;
+			productReference = 590E68732C9332A700CC7F2C /* BluetoothMicSwitcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		590E687C2C9332A700CC7F2C /* BluetoothMicSwitcherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 590E688D2C9332A700CC7F2C /* Build configuration list for PBXNativeTarget "BluetoothMicSwitcherUITests" */;
+			buildPhases = (
+				590E68792C9332A700CC7F2C /* Sources */,
+				590E687A2C9332A700CC7F2C /* Frameworks */,
+				590E687B2C9332A700CC7F2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				590E687F2C9332A700CC7F2C /* PBXTargetDependency */,
+			);
+			name = BluetoothMicSwitcherUITests;
+			productName = BluetoothMicSwitcherUITests;
+			productReference = 590E687D2C9332A700CC7F2C /* BluetoothMicSwitcherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		590E68972C934EBC00CC7F2C /* AppHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 590E68BA2C934EBE00CC7F2C /* Build configuration list for PBXNativeTarget "AppHelper" */;
+			buildPhases = (
+				590E68942C934EBC00CC7F2C /* Sources */,
+				590E68952C934EBC00CC7F2C /* Frameworks */,
+				590E68962C934EBC00CC7F2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppHelper;
+			productName = AppHelper;
+			productReference = 590E68982C934EBC00CC7F2C /* AppHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		590E68A72C934EBD00CC7F2C /* AppHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 590E68BD2C934EBE00CC7F2C /* Build configuration list for PBXNativeTarget "AppHelperTests" */;
+			buildPhases = (
+				590E68A42C934EBD00CC7F2C /* Sources */,
+				590E68A52C934EBD00CC7F2C /* Frameworks */,
+				590E68A62C934EBD00CC7F2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				590E68AA2C934EBD00CC7F2C /* PBXTargetDependency */,
+			);
+			name = AppHelperTests;
+			productName = AppHelperTests;
+			productReference = 590E68A82C934EBD00CC7F2C /* AppHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		590E68B12C934EBD00CC7F2C /* AppHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 590E68C02C934EBE00CC7F2C /* Build configuration list for PBXNativeTarget "AppHelperUITests" */;
+			buildPhases = (
+				590E68AE2C934EBD00CC7F2C /* Sources */,
+				590E68AF2C934EBD00CC7F2C /* Frameworks */,
+				590E68B02C934EBD00CC7F2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				590E68B42C934EBE00CC7F2C /* PBXTargetDependency */,
+			);
+			name = AppHelperUITests;
+			productName = AppHelperUITests;
+			productReference = 590E68B22C934EBD00CC7F2C /* AppHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		590E685A2C9332A500CC7F2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					590E68612C9332A500CC7F2C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					590E68722C9332A700CC7F2C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 590E68612C9332A500CC7F2C;
+					};
+					590E687C2C9332A700CC7F2C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 590E68612C9332A500CC7F2C;
+					};
+					590E68972C934EBC00CC7F2C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					590E68A72C934EBD00CC7F2C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 590E68972C934EBC00CC7F2C;
+					};
+					590E68B12C934EBD00CC7F2C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 590E68972C934EBC00CC7F2C;
+					};
+				};
+			};
+			buildConfigurationList = 590E685D2C9332A500CC7F2C /* Build configuration list for PBXProject "BluetoothMicSwitcher" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 590E68592C9332A500CC7F2C;
+			productRefGroup = 590E68632C9332A500CC7F2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				590E68612C9332A500CC7F2C /* BluetoothMicSwitcher */,
+				590E68722C9332A700CC7F2C /* BluetoothMicSwitcherTests */,
+				590E687C2C9332A700CC7F2C /* BluetoothMicSwitcherUITests */,
+				590E68972C934EBC00CC7F2C /* AppHelper */,
+				590E68A72C934EBD00CC7F2C /* AppHelperTests */,
+				590E68B12C934EBD00CC7F2C /* AppHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		590E68602C9332A500CC7F2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590E686D2C9332A700CC7F2C /* Preview Assets.xcassets in Resources */,
+				590E686A2C9332A700CC7F2C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590E68712C9332A700CC7F2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590E687B2C9332A700CC7F2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590E68962C934EBC00CC7F2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590E68A22C934EBD00CC7F2C /* Preview Assets.xcassets in Resources */,
+				590E689F2C934EBD00CC7F2C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590E68A62C934EBD00CC7F2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590E68B02C934EBD00CC7F2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		590E685E2C9332A500CC7F2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590E68932C934CAE00CC7F2C /* LoginItemHelper.swift in Sources */,
+				590E68682C9332A500CC7F2C /* ContentView.swift in Sources */,
+				590E68912C93337500CC7F2C /* AirpodsDisableInputScript.swift in Sources */,
+				590E68662C9332A500CC7F2C /* BluetoothMicSwitcherApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590E686F2C9332A700CC7F2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590E68782C9332A700CC7F2C /* BluetoothMicSwitcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590E68792C9332A700CC7F2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590E68842C9332A700CC7F2C /* BluetoothMicSwitcherUITestsLaunchTests.swift in Sources */,
+				590E68822C9332A700CC7F2C /* BluetoothMicSwitcherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590E68942C934EBC00CC7F2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590E689D2C934EBC00CC7F2C /* ContentView.swift in Sources */,
+				590E689B2C934EBC00CC7F2C /* AppHelperApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590E68A42C934EBD00CC7F2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590E68AD2C934EBD00CC7F2C /* AppHelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590E68AE2C934EBD00CC7F2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590E68B92C934EBE00CC7F2C /* AppHelperUITestsLaunchTests.swift in Sources */,
+				590E68B72C934EBE00CC7F2C /* AppHelperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		590E68752C9332A700CC7F2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 590E68612C9332A500CC7F2C /* BluetoothMicSwitcher */;
+			targetProxy = 590E68742C9332A700CC7F2C /* PBXContainerItemProxy */;
+		};
+		590E687F2C9332A700CC7F2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 590E68612C9332A500CC7F2C /* BluetoothMicSwitcher */;
+			targetProxy = 590E687E2C9332A700CC7F2C /* PBXContainerItemProxy */;
+		};
+		590E68AA2C934EBD00CC7F2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 590E68972C934EBC00CC7F2C /* AppHelper */;
+			targetProxy = 590E68A92C934EBD00CC7F2C /* PBXContainerItemProxy */;
+		};
+		590E68B42C934EBE00CC7F2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 590E68972C934EBC00CC7F2C /* AppHelper */;
+			targetProxy = 590E68B32C934EBE00CC7F2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		590E68852C9332A700CC7F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		590E68862C9332A700CC7F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		590E68882C9332A700CC7F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BluetoothMicSwitcher/BluetoothMicSwitcher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BluetoothMicSwitcher/Preview Content\"";
+				DEVELOPMENT_TEAM = NA22RJ3PJ8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SevenBackwards.BluetoothMicSwitcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		590E68892C9332A700CC7F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BluetoothMicSwitcher/BluetoothMicSwitcher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BluetoothMicSwitcher/Preview Content\"";
+				DEVELOPMENT_TEAM = NA22RJ3PJ8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SevenBackwards.BluetoothMicSwitcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		590E688B2C9332A700CC7F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NA22RJ3PJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SevenBackwards.BluetoothMicSwitcherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluetoothMicSwitcher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BluetoothMicSwitcher";
+			};
+			name = Debug;
+		};
+		590E688C2C9332A700CC7F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NA22RJ3PJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SevenBackwards.BluetoothMicSwitcherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluetoothMicSwitcher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BluetoothMicSwitcher";
+			};
+			name = Release;
+		};
+		590E688E2C9332A700CC7F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NA22RJ3PJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SevenBackwards.BluetoothMicSwitcherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BluetoothMicSwitcher;
+			};
+			name = Debug;
+		};
+		590E688F2C9332A700CC7F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NA22RJ3PJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SevenBackwards.BluetoothMicSwitcherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BluetoothMicSwitcher;
+			};
+			name = Release;
+		};
+		590E68BB2C934EBE00CC7F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppHelper/AppHelper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppHelper/Preview Content\"";
+				DEVELOPMENT_TEAM = NA22RJ3PJ8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SevenBackwards.AppHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		590E68BC2C934EBE00CC7F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppHelper/AppHelper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppHelper/Preview Content\"";
+				DEVELOPMENT_TEAM = NA22RJ3PJ8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SevenBackwards.AppHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		590E68BE2C934EBE00CC7F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NA22RJ3PJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SevenBackwards.AppHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppHelper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppHelper";
+			};
+			name = Debug;
+		};
+		590E68BF2C934EBE00CC7F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NA22RJ3PJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SevenBackwards.AppHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppHelper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppHelper";
+			};
+			name = Release;
+		};
+		590E68C12C934EBE00CC7F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NA22RJ3PJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SevenBackwards.AppHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AppHelper;
+			};
+			name = Debug;
+		};
+		590E68C22C934EBE00CC7F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NA22RJ3PJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SevenBackwards.AppHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AppHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		590E685D2C9332A500CC7F2C /* Build configuration list for PBXProject "BluetoothMicSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590E68852C9332A700CC7F2C /* Debug */,
+				590E68862C9332A700CC7F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		590E68872C9332A700CC7F2C /* Build configuration list for PBXNativeTarget "BluetoothMicSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590E68882C9332A700CC7F2C /* Debug */,
+				590E68892C9332A700CC7F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		590E688A2C9332A700CC7F2C /* Build configuration list for PBXNativeTarget "BluetoothMicSwitcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590E688B2C9332A700CC7F2C /* Debug */,
+				590E688C2C9332A700CC7F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		590E688D2C9332A700CC7F2C /* Build configuration list for PBXNativeTarget "BluetoothMicSwitcherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590E688E2C9332A700CC7F2C /* Debug */,
+				590E688F2C9332A700CC7F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		590E68BA2C934EBE00CC7F2C /* Build configuration list for PBXNativeTarget "AppHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590E68BB2C934EBE00CC7F2C /* Debug */,
+				590E68BC2C934EBE00CC7F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		590E68BD2C934EBE00CC7F2C /* Build configuration list for PBXNativeTarget "AppHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590E68BE2C934EBE00CC7F2C /* Debug */,
+				590E68BF2C934EBE00CC7F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		590E68C02C934EBE00CC7F2C /* Build configuration list for PBXNativeTarget "AppHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590E68C12C934EBE00CC7F2C /* Debug */,
+				590E68C22C934EBE00CC7F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 590E685A2C9332A500CC7F2C /* Project object */;
+}
