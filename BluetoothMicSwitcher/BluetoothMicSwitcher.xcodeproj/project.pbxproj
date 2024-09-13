@@ -14,7 +14,6 @@
 		590E68782C9332A700CC7F2C /* BluetoothMicSwitcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E68772C9332A700CC7F2C /* BluetoothMicSwitcherTests.swift */; };
 		590E68822C9332A700CC7F2C /* BluetoothMicSwitcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E68812C9332A700CC7F2C /* BluetoothMicSwitcherUITests.swift */; };
 		590E68842C9332A700CC7F2C /* BluetoothMicSwitcherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E68832C9332A700CC7F2C /* BluetoothMicSwitcherUITestsLaunchTests.swift */; };
-		590E68912C93337500CC7F2C /* AirpodsDisableInputScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E68902C93337500CC7F2C /* AirpodsDisableInputScript.swift */; };
 		590E68932C934CAE00CC7F2C /* LoginItemHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E68922C934CAE00CC7F2C /* LoginItemHelper.swift */; };
 		590E689B2C934EBC00CC7F2C /* AppHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E689A2C934EBC00CC7F2C /* AppHelperApp.swift */; };
 		590E689D2C934EBC00CC7F2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E689C2C934EBC00CC7F2C /* ContentView.swift */; };
@@ -23,6 +22,7 @@
 		590E68AD2C934EBD00CC7F2C /* AppHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E68AC2C934EBD00CC7F2C /* AppHelperTests.swift */; };
 		590E68B72C934EBE00CC7F2C /* AppHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E68B62C934EBE00CC7F2C /* AppHelperUITests.swift */; };
 		590E68B92C934EBE00CC7F2C /* AppHelperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E68B82C934EBE00CC7F2C /* AppHelperUITestsLaunchTests.swift */; };
+		592224DA2C94FDAA0069E966 /* AudioDeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592224D92C94FDAA0069E966 /* AudioDeviceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +68,6 @@
 		590E687D2C9332A700CC7F2C /* BluetoothMicSwitcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothMicSwitcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		590E68812C9332A700CC7F2C /* BluetoothMicSwitcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothMicSwitcherUITests.swift; sourceTree = "<group>"; };
 		590E68832C9332A700CC7F2C /* BluetoothMicSwitcherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothMicSwitcherUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		590E68902C93337500CC7F2C /* AirpodsDisableInputScript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AirpodsDisableInputScript.swift; path = "../../Airpods-Disable-Microphone-Script/AirpodsDisableInputScript.swift"; sourceTree = "<group>"; };
 		590E68922C934CAE00CC7F2C /* LoginItemHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginItemHelper.swift; sourceTree = "<group>"; };
 		590E68982C934EBC00CC7F2C /* AppHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		590E689A2C934EBC00CC7F2C /* AppHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHelperApp.swift; sourceTree = "<group>"; };
@@ -81,6 +80,7 @@
 		590E68B22C934EBD00CC7F2C /* AppHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		590E68B62C934EBE00CC7F2C /* AppHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHelperUITests.swift; sourceTree = "<group>"; };
 		590E68B82C934EBE00CC7F2C /* AppHelperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHelperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		592224D92C94FDAA0069E966 /* AudioDeviceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioDeviceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +160,7 @@
 			children = (
 				590E68652C9332A500CC7F2C /* BluetoothMicSwitcherApp.swift */,
 				590E68672C9332A500CC7F2C /* ContentView.swift */,
-				590E68902C93337500CC7F2C /* AirpodsDisableInputScript.swift */,
+				592224D92C94FDAA0069E966 /* AudioDeviceManager.swift */,
 				590E68922C934CAE00CC7F2C /* LoginItemHelper.swift */,
 				590E68692C9332A700CC7F2C /* Assets.xcassets */,
 				590E686E2C9332A700CC7F2C /* BluetoothMicSwitcher.entitlements */,
@@ -453,8 +453,8 @@
 			files = (
 				590E68932C934CAE00CC7F2C /* LoginItemHelper.swift in Sources */,
 				590E68682C9332A500CC7F2C /* ContentView.swift in Sources */,
-				590E68912C93337500CC7F2C /* AirpodsDisableInputScript.swift in Sources */,
 				590E68662C9332A500CC7F2C /* BluetoothMicSwitcherApp.swift in Sources */,
+				592224DA2C94FDAA0069E966 /* AudioDeviceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -594,6 +595,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;

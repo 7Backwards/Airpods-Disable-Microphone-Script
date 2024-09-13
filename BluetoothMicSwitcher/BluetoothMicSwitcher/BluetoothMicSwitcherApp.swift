@@ -44,7 +44,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
             
             if let button = statusItem?.button {
-                button.image = NSImage(systemSymbolName: "airpodspro", accessibilityDescription: "AirPods Mic Switcher")
+                if let appIcon = NSImage(named: "menuBarIcon") {
+                    let size = NSSize(width: 28, height: 22)
+                    appIcon.size = size
+                    
+                    button.image = appIcon
+                }
                 button.action = #selector(showMenu)
             }
         }
